@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f8fb">
+  <meta name="description" content="Cong Cao — Third-year PhD student in Computer Vision at MBZUAI. Research on 3D garments, garment retargeting, virtual try-on, and generative modeling.">
+  <meta property="og:title" content="Cong Cao | Computer Vision Research">
+  <meta property="og:description" content="Third-year PhD student at MBZUAI. Exploring 3D garments, garment retargeting, virtual try-on, and generative modeling.">
+  <meta property="og:type" content="website">
+  <title>Cong Cao | Computer Vision Research</title>
+  <link rel="icon" href="assets/favicon-flower.svg?v=plum-1" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/roboto-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/nunito-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try { const t = localStorage.getItem('homepage-theme'); if (t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.dataset.theme = 'dark'; } catch {}
+  </script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-en="Skip to content" data-zh="跳转到正文">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#" aria-label="Cong Cao — home">cc<span class="brand-flower" aria-hidden="true"><svg viewBox="0 0 120 120" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="3" transform="rotate(15 60 60)"><ellipse cx="60" cy="34" rx="14" ry="27"/><ellipse cx="60" cy="34" rx="14" ry="27" transform="rotate(60 60 60)"/><ellipse cx="60" cy="34" rx="14" ry="27" transform="rotate(120 60 60)"/><ellipse cx="60" cy="34" rx="14" ry="27" transform="rotate(180 60 60)"/><ellipse cx="60" cy="34" rx="14" ry="27" transform="rotate(240 60 60)"/><ellipse cx="60" cy="34" rx="14" ry="27" transform="rotate(300 60 60)"/><circle cx="60" cy="60" r="9"/></g></svg></span></a>
+      <nav aria-label="Main navigation" data-aria-en="Main navigation" data-aria-zh="主导航">
+        <a href="#about" data-en="About" data-zh="关于">About</a>
+        <a href="#research" data-en="Research" data-zh="研究">Research</a>
+        <a href="#education" data-en="Education" data-zh="教育">Education</a>
+        <a href="#internship" data-en="Internship" data-zh="实习">Internship</a>
+        <a href="#contact" data-en="Contact" data-zh="联系">Contact</a>
+      </nav>
+      <div class="header-controls">
+        <button class="language-button" id="language-toggle" type="button" aria-label="切换到中文" hidden>中文</button>
+        <button class="theme-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" hidden>
+          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 14.2A8.5 8.5 0 0 1 9.8 3.8a8.5 8.5 0 1 0 10.4 10.4Z"/></svg>
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="about" aria-labelledby="name">
+        <div class="hero-main">
+          <h1 id="name"><span class="name-latin">Cong Cao</span> <span class="name-chinese" lang="zh-CN">(曹聪)</span></h1>
+          <p class="role" data-en="Third-year PhD student in Computer Vision" data-zh="计算机视觉博士三年级">Third-year PhD student in Computer Vision</p>
+          <p class="bio"><span data-en="I am a third-year PhD student at " data-zh="我在 ">I am a third-year PhD student at </span><a href="https://mbzuai.ac.ae/" lang="en">Mohamed bin Zayed University of Artificial Intelligence</a><span data-en=" (MBZUAI), advised by " data-zh="（MBZUAI）攻读计算机视觉博士，目前博士三年级，导师为 "> (MBZUAI), advised by </span><a href="https://www.hao-li.com/" data-en="Prof. Hao Li" data-zh="Hao Li 教授">Prof. Hao Li</a><span data-en=". My research explores 3D generative modeling and geometry learning for digital garments, including virtual try-on, garment retargeting, sewing pattern generation, and garment reconstruction." data-zh="。我的研究关注数字服装的三维生成建模与几何学习，包括虚拟试衣、服装重定向、裁片生成与服装重建。">. My research explores 3D generative modeling and geometry learning for digital garments, including virtual try-on, garment retargeting, sewing pattern generation, and garment reconstruction.</span></p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research"><span data-en="Publications" data-zh="查看论文">Publications</span><span aria-hidden="true">↓</span></a>
+            <div class="social-links" role="group" aria-label="Profiles and contact" data-aria-en="Profiles and contact" data-aria-zh="个人资料与联系方式">
+              <a class="social-link social-link--email" href="mailto:cong.cao@mbzuai.ac.ae" aria-label="Email" data-aria-en="Email" data-aria-zh="邮箱"><svg width="28" height="28" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg><span class="icon-tooltip" aria-hidden="true" data-en="Email" data-zh="邮箱">Email</span></a>
+              <a class="social-link social-link--scholar" href="https://scholar.google.com/citations?user=-veF7poAAAAJ&amp;hl=en" aria-label="Google Scholar" data-aria-en="Google Scholar" data-aria-zh="Google Scholar"><svg width="28" height="28" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/></svg><span class="icon-tooltip" aria-hidden="true" data-en="Google Scholar" data-zh="Google Scholar">Google Scholar</span></a>
+              <a class="social-link social-link--github" href="https://github.com/Cao-Cong0" aria-label="GitHub" data-aria-en="GitHub" data-aria-zh="GitHub"><svg width="28" height="28" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg><span class="icon-tooltip" aria-hidden="true" data-en="GitHub" data-zh="GitHub">GitHub</span></a>
+              <a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/cong-cao-28582722b/" aria-label="LinkedIn" data-aria-en="LinkedIn" data-aria-zh="LinkedIn"><svg width="28" height="28" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg><span class="icon-tooltip" aria-hidden="true" data-en="LinkedIn" data-zh="LinkedIn">LinkedIn</span></a>
+              <a class="social-link social-link--cv" href="assets/Cong_Cao_CV.pdf" aria-label="CV" data-aria-en="CV" data-aria-zh="简历" target="_blank" rel="noopener"><svg width="28" height="28" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M64 464c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l160 0 0 80c0 17.7 14.3 32 32 32l80 0 0 288c0 8.8-7.2 16-16 16L64 464zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-293.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0L64 0zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0z"/></svg><span class="icon-tooltip" aria-hidden="true" data-en="CV" data-zh="简历">CV</span></a>
+            </div>
+          </div>
+          <div class="hero-location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>MBZUAI</span><span aria-hidden="true">·</span><span data-en="Abu Dhabi, UAE" data-zh="阿布扎比，阿联酋">Abu Dhabi, UAE</span></div>
+        </div>
+        <div class="portrait-area">
+          <figure class="portrait-frame">
+            <a id="portrait-open" class="portrait-open" href="assets/portrait.png" aria-label="View the full portrait" data-aria-en="View the full portrait" data-aria-zh="查看完整照片"><img src="assets/portrait.png" alt="Cong Cao standing beneath flowering trees, wearing glasses and a gray top." width="1092" height="1441" fetchpriority="high" data-alt-en="Cong Cao standing beneath flowering trees, wearing glasses and a gray top." data-alt-zh="Cong Cao 戴着眼镜、身穿灰色上衣，站在开花的树下。"></a>
+          </figure>
+        </div>
+      </section>
+
+      <section class="focus-strip" aria-labelledby="research-topics-title">
+        <div class="focus-intro"><p class="eyebrow" id="research-topics-title" data-en="Research areas" data-zh="研究方向">Research areas</p></div>
+        <div class="topic-filters" id="research-filter-controls" role="group" aria-label="Filter publications by research area" data-aria-en="Filter publications by research area" data-aria-zh="按研究方向筛选论文" hidden>
+          <button class="topic-filter topic-all" type="button" data-topic="all" aria-pressed="true" aria-controls="publication-list"><span data-en="All" data-zh="全部">All</span></button>
+          <button class="topic-filter" type="button" data-topic="try-on" aria-pressed="false" aria-controls="publication-list"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m11 6-7 5 4 6 3-2v12h10V15l3 2 4-6-7-5M11 6c0 6 10 6 10 0"/><path class="sketch-detail" d="M16 11v12M12 20h8"/></svg><span data-en="Virtual try-on" data-zh="虚拟试衣">Virtual try-on</span></button>
+          <button class="topic-filter" type="button" data-topic="patterns" aria-pressed="false" aria-controls="publication-list"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 5h8l-1 8 2 14H4l2-14Zm15 1 8 2-3 8 1 11-10-2 3-12Z"/><path class="sketch-detail" d="M9 8v15M23 11l-3 12"/></svg><span data-en="Sewing patterns" data-zh="服装裁片">Sewing patterns</span></button>
+          <button class="topic-filter" type="button" data-topic="reconstruction" aria-pressed="false" aria-controls="publication-list"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m16 3 12 7-3 15-13 4-9-11 3-10Z"/><path class="sketch-detail" d="m6 8 11 7 11-5M17 15l8 10M17 15l-5 14M3 18l14-3M16 3l1 12"/></svg><span data-en="3D reconstruction" data-zh="三维重建">3D reconstruction</span></button>
+        </div>
+      </section>
+
+      <section class="research-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading">
+          <div class="research-heading-title"><h2 id="research-title" data-en="Publications" data-zh="论文成果">Publications</h2><span class="publication-count" id="publication-count" aria-hidden="true">04</span></div>
+          <div class="research-heading-details"><p class="section-description" data-en="Digital garments, 3D reconstruction, and generative modeling." data-zh="数字服装、三维重建与生成式建模。">Digital garments, 3D reconstruction, and generative modeling.</p><p class="sr-only" id="research-status" role="status" aria-live="polite" hidden></p></div>
+        </div>
+
+        <div class="publication-list" id="publication-list">
+        <article class="publication" aria-labelledby="luiviton-title" data-research-topic="try-on">
+          <a class="publication-image" href="https://cao-cong0.github.io/LUIVITON-Learned-Universal-Interoperable-VIrtual-Try-ON/" aria-label="LUIVITON project page">
+            <img src="assets/luiviton.jpg" alt="LUIVITON fits different garments to human, cartoon, and stylized characters." width="1800" height="852" loading="lazy">
+          </a>
+          <div class="publication-content">
+            <div class="publication-meta"><span class="venue">SIGGRAPH 2026 · ACM TOG</span></div>
+            <h3 id="luiviton-title" lang="en"><a href="https://doi.org/10.1145/3811307">Learned Universal Interoperable Virtual Try-ON</a></h3>
+            <p class="authors" lang="en"><strong>Cong Cao</strong>, Xianhang Cheng, Jingyuan Liu, Yujian Zheng, Zhenhui Lin, Ren Li, Meriem Chkir, Hao Li</p>
+            <p class="publication-description" data-en="An automated pipeline for fitting complex 3D garments to diverse humanoid characters using learned correspondences and simulation-guided fitting." data-zh="通过学习对应关系与仿真驱动的适配，将复杂三维服装自动穿戴到不同的人形角色上。">An automated pipeline for fitting complex 3D garments to diverse humanoid characters using learned correspondences and simulation-guided fitting.</p>
+            <div class="publication-links">
+              <a href="https://doi.org/10.1145/3811307" data-en="Paper" data-zh="论文">Paper</a>
+              <a href="https://cao-cong0.github.io/LUIVITON-Learned-Universal-Interoperable-VIrtual-Try-ON/" data-en="Project" data-zh="项目主页">Project</a>
+              <a href="https://github.com/Cao-Cong0/LUIVITON-Learned-Universal-Interoperable-VIrtual-Try-ON" data-en="Code" data-zh="代码">Code</a>
+              <a href="https://www.youtube.com/watch?v=ctG9DeKy6jc&amp;t=1s" data-en="Video" data-zh="视频">Video</a>
+            </div>
+            <details class="citation"><summary data-en="BibTeX citation" data-zh="BibTeX 引用">BibTeX citation</summary><pre><code>@article{cao2026luiviton,
+  title = {Learned Universal Interoperable Virtual Try-ON},
+  author = {Cao, Cong and Cheng, Xianhang and Liu, Jingyuan and
+            Zheng, Yujian and Lin, Zhenhui and Li, Ren and
+            Chkir, Meriem and Li, Hao},
+  journal = {ACM Transactions on Graphics},
+  volume = {45},
+  number = {4},
+  articleno = {156},
+  year = {2026},
+  doi = {10.1145/3811307}
+}</code></pre></details>
+          </div>
+        </article>
+
+        <article class="publication" aria-labelledby="patterns-title" data-research-topic="patterns">
+          <a class="publication-image" href="https://cao-cong0.github.io/Learning-Sewing-Patterns-via-Latent-Flow-Matching-of-Implicit-Fields/" aria-label="Sewing patterns project page">
+            <img src="assets/sewing-patterns.png" alt="Implicit garment representations and applications to sewing pattern estimation, completion, and refitting." width="1800" height="779" loading="lazy">
+          </a>
+          <div class="publication-content">
+            <div class="publication-meta"><span class="venue">SIGGRAPH 2026</span></div>
+            <h3 id="patterns-title" lang="en"><a href="https://doi.org/10.1145/3799902.3811055">Learning Sewing Patterns via Latent Flow Matching of Implicit Fields</a></h3>
+            <p class="authors" lang="en"><strong>Cong Cao*</strong>, Ren Li*, Corentin Dumery, Hao Li <span class="equal-contribution" data-en="(* equal contribution)" data-zh="（* 共同一作）">(* equal contribution)</span></p>
+            <p class="publication-description" data-en="Learning implicit sewing pattern representations for garment generation and image-conditioned pattern estimation." data-zh="学习服装裁片的隐式表示，用于服装生成与图像条件下的裁片估计。">Learning implicit sewing pattern representations for garment generation and image-conditioned pattern estimation.</p>
+            <div class="publication-links">
+              <a href="https://doi.org/10.1145/3799902.3811055" data-en="Paper" data-zh="论文">Paper</a>
+              <a href="https://cao-cong0.github.io/Learning-Sewing-Patterns-via-Latent-Flow-Matching-of-Implicit-Fields/" data-en="Project" data-zh="项目主页">Project</a>
+              <a href="https://github.com/Cao-Cong0/Learning-Sewing-Patterns-via-Latent-Flow-Matching-of-Implicit-Fields" data-en="Code" data-zh="代码">Code</a>
+              <a href="https://www.youtube.com/watch?v=xs8Yi8BgTMM&amp;t=1s" data-en="Video" data-zh="视频">Video</a>
+            </div>
+            <details class="citation"><summary data-en="BibTeX citation" data-zh="BibTeX 引用">BibTeX citation</summary><pre><code>@inproceedings{cao2026learning,
+  title = {Learning Sewing Patterns via Latent Flow Matching of Implicit Fields},
+  author = {Cao, Cong and Li, Ren and Dumery, Corentin and Li, Hao},
+  booktitle = {ACM SIGGRAPH 2026 Conference Papers},
+  articleno = {179},
+  year = {2026},
+  doi = {10.1145/3799902.3811055}
+}</code></pre></details>
+          </div>
+        </article>
+
+        <article class="publication" aria-labelledby="spatiotemporal-title" data-research-topic="reconstruction">
+          <a class="publication-image" href="https://arxiv.org/abs/2602.24043" aria-label="Spatio-temporal garment reconstruction paper">
+            <img src="assets/spatiotemporal.png" alt="Overview of the spatio-temporal diffusion framework for reconstructing garments from video." width="1614" height="807" loading="lazy" data-alt-en="Overview of the spatio-temporal diffusion framework for reconstructing garments from video." data-alt-zh="利用时空扩散模型从视频中重建服装的方法概览。">
+          </a>
+          <div class="publication-content">
+            <div class="publication-meta"><span class="venue">TPAMI 2026</span></div>
+            <h3 id="spatiotemporal-title" lang="en"><a href="https://arxiv.org/abs/2602.24043">Spatio-Temporal Garment Reconstruction Using Diffusion Mapping via Pattern Coordinates</a></h3>
+            <p class="authors" lang="en">Yingxuan You*, Ren Li*, Corentin Dumery, <strong>Cong Cao</strong>, Hao Li, Pascal Fua</p>
+            <p class="publication-description" data-en="A unified framework for garment reconstruction from images and videos, using diffusion priors and temporal guidance to recover detailed, temporally consistent 3D geometry." data-zh="通过扩散先验与时序引导，从图像和视频中重建细节丰富、时序一致的三维服装。">A unified framework for garment reconstruction from images and videos, using diffusion priors and temporal guidance to recover detailed, temporally consistent 3D geometry.</p>
+            <div class="publication-links">
+              <a href="https://arxiv.org/abs/2602.24043" data-en="Paper" data-zh="论文">Paper</a>
+              <a href="https://github.com/kasvii/DMap" data-en="Code" data-zh="代码">Code</a>
+            </div>
+            <details class="citation"><summary data-en="BibTeX citation (arXiv)" data-zh="BibTeX 引用（arXiv）">BibTeX citation (arXiv)</summary><pre><code>@misc{you2026spatiotemporal,
+  title = {Spatio-Temporal Garment Reconstruction Using Diffusion Mapping via Pattern Coordinates},
+  author = {You, Yingxuan and Li, Ren and Dumery, Corentin and
+            Cao, Cong and Li, Hao and Fua, Pascal},
+  year = {2026},
+  eprint = {2602.24043},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CV},
+  url = {https://arxiv.org/abs/2602.24043}
+}</code></pre></details>
+          </div>
+        </article>
+
+        <article class="publication" aria-labelledby="single-view-title" data-research-topic="reconstruction">
+          <a class="publication-image" href="https://liren2515.github.io/page/dmap/dmap.html" aria-label="Single view garment reconstruction project page">
+            <img src="assets/single-view.png" alt="A single photograph of a dancer and the reconstructed 3D skirt shown from three viewpoints." width="945" height="454" loading="lazy" data-alt-en="A single photograph of a dancer and the reconstructed 3D skirt shown from three viewpoints." data-alt-zh="一张舞者照片，以及从三个视角展示的三维裙装重建结果。">
+          </a>
+          <div class="publication-content">
+            <div class="publication-meta"><span class="venue">SIGGRAPH 2025</span></div>
+            <h3 id="single-view-title" lang="en"><a href="https://arxiv.org/abs/2504.08353">Single View Garment Reconstruction Using Diffusion Mapping Via Pattern Coordinates</a></h3>
+            <p class="authors" lang="en">Ren Li, <strong>Cong Cao</strong>, Corentin Dumery, Yingxuan You, Hao Li, Pascal Fua</p>
+            <p class="publication-description" data-en="Reconstructing detailed 3D garments and sewing patterns from a single image through diffusion-based mappings between image pixels, pattern coordinates, and geometry." data-zh="利用扩散模型建立图像像素、裁片坐标与三维几何之间的映射，从单张图像中重建细致的三维服装及裁片。">Reconstructing detailed 3D garments and sewing patterns from a single image through diffusion-based mappings between image pixels, pattern coordinates, and geometry.</p>
+            <div class="publication-links">
+              <a href="https://arxiv.org/abs/2504.08353" data-en="Paper" data-zh="论文">Paper</a>
+              <a href="https://liren2515.github.io/page/dmap/dmap.html" data-en="Project" data-zh="项目主页">Project</a>
+              <a href="https://github.com/liren2515/DMap" data-en="Code" data-zh="代码">Code</a>
+              <a href="https://www.youtube.com/watch?v=rcIs6RO5juo" data-en="Video" data-zh="视频">Video</a>
+            </div>
+            <details class="citation"><summary data-en="BibTeX citation" data-zh="BibTeX 引用">BibTeX citation</summary><pre><code>@inproceedings{li2025singleview,
+  title = {Single View Garment Reconstruction Using Diffusion Mapping Via Pattern Coordinates},
+  author = {Li, Ren and Cao, Cong and Dumery, Corentin and
+            You, Yingxuan and Li, Hao and Fua, Pascal},
+  booktitle = {ACM SIGGRAPH 2025 Conference Papers},
+  year = {2025}
+}</code></pre></details>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <section class="experience-section" id="education" aria-labelledby="education-title">
+        <div class="section-heading">
+          <div><h2 id="education-title" data-en="Education" data-zh="教育经历">Education</h2></div>
+        </div>
+        <ol class="experience-list">
+          <li class="experience-item">
+            <p class="experience-date"><time datetime="2024-08" data-en="Aug. 2024" data-zh="2024.08">Aug. 2024</time><span aria-hidden="true">–</span><span data-en="Present" data-zh="至今">Present</span></p>
+            <div class="experience-content">
+              <h3 data-en="Mohamed bin Zayed University of Artificial Intelligence" data-zh="穆罕默德·本·扎耶德人工智能大学">Mohamed bin Zayed University of Artificial Intelligence</h3>
+              <div class="experience-details"><p class="experience-role" data-en="PhD in Computer Vision" data-zh="计算机视觉博士（在读）">PhD in Computer Vision</p><p class="experience-location" data-en="Abu Dhabi, UAE" data-zh="阿布扎比，阿联酋">Abu Dhabi, UAE</p></div>
+              <p class="experience-note"><span data-en="Advisor: " data-zh="导师：">Advisor: </span><a href="https://www.hao-li.com/" data-en="Prof. Hao Li" data-zh="Hao Li 教授">Prof. Hao Li</a></p>
+            </div>
+            <div class="institution-logo institution-logo--mbzuai" aria-hidden="true"><img src="assets/logo-mbzuai.png" alt="" width="765" height="401" loading="lazy" decoding="async"></div>
+          </li>
+          <li class="experience-item">
+            <p class="experience-date"><time datetime="2022-08" data-en="Aug. 2022" data-zh="2022.08">Aug. 2022</time><span aria-hidden="true">–</span><time datetime="2024-06" data-en="Jun. 2024" data-zh="2024.06">Jun. 2024</time></p>
+            <div class="experience-content">
+              <h3 data-en="Mohamed bin Zayed University of Artificial Intelligence" data-zh="穆罕默德·本·扎耶德人工智能大学">Mohamed bin Zayed University of Artificial Intelligence</h3>
+              <div class="experience-details"><p class="experience-role" data-en="MSc in Computer Vision" data-zh="计算机视觉硕士">MSc in Computer Vision</p><p class="experience-location" data-en="Abu Dhabi, UAE" data-zh="阿布扎比，阿联酋">Abu Dhabi, UAE</p></div>
+              <p class="experience-note"><span data-en="Advisor: " data-zh="导师：">Advisor: </span><a href="https://www.hao-li.com/" data-en="Prof. Hao Li" data-zh="Hao Li 教授">Prof. Hao Li</a></p>
+              <p class="experience-thesis"><span class="thesis-label" data-en="MSc thesis" data-zh="硕士学位论文">MSc thesis</span><a href="https://irep.mbzuai.ac.ae/items/0a2a4187-1134-4598-b102-7fa736570eba" lang="en" target="_blank" rel="noopener">A Virtual Try-On System for Any Clothing and Body Model</a></p>
+            </div>
+            <div class="institution-logo institution-logo--mbzuai" aria-hidden="true"><img src="assets/logo-mbzuai.png" alt="" width="765" height="401" loading="lazy" decoding="async"></div>
+          </li>
+          <li class="experience-item">
+            <p class="experience-date"><time datetime="2021-09" data-en="Sep. 2021" data-zh="2021.09">Sep. 2021</time><span aria-hidden="true">–</span><time datetime="2022-11" data-en="Nov. 2022" data-zh="2022.11">Nov. 2022</time></p>
+            <div class="experience-content">
+              <h3 data-en="University of Bristol" data-zh="布里斯托大学">University of Bristol</h3>
+              <div class="experience-details"><p class="experience-role" data-en="MSc in Robotics" data-zh="机器人学硕士">MSc in Robotics</p><p class="experience-location" data-en="Bristol, UK" data-zh="布里斯托，英国">Bristol, UK</p></div>
+              <p class="experience-note"><span data-en="Advisor: " data-zh="导师：">Advisor: </span><a href="https://research-information.bris.ac.uk/en/persons/paul-j-odowd/" data-en="Dr. Paul O’Dowd" data-zh="Paul O’Dowd 博士">Dr. Paul O’Dowd</a><strong class="experience-badge" data-en="Graduated with Distinction" data-zh="以 Distinction 等级毕业">Graduated with Distinction</strong></p>
+              <p class="experience-thesis"><span class="thesis-label" data-en="MSc dissertation" data-zh="硕士毕业论文">MSc dissertation</span><a href="assets/bristol-msc-dissertation.pdf" lang="en" type="application/pdf" target="_blank" rel="noopener">Exploring Local Communication to Improve Swarm Box Pushing</a></p>
+            </div>
+            <div class="institution-logo institution-logo--bristol" aria-hidden="true"><img src="assets/logo-bristol.png" alt="" width="4850" height="1465" loading="lazy" decoding="async"></div>
+          </li>
+          <li class="experience-item">
+            <p class="experience-date"><time datetime="2018-09" data-en="Sep. 2018" data-zh="2018.09">Sep. 2018</time><span aria-hidden="true">–</span><time datetime="2022-07" data-en="Jul. 2022" data-zh="2022.07">Jul. 2022</time></p>
+            <div class="experience-content">
+              <h3 data-en="Xidian University" data-zh="西安电子科技大学">Xidian University</h3>
+              <div class="experience-details"><p class="experience-role" data-en="BEng in Intelligence Science and Technology" data-zh="智能科学与技术工学学士">BEng in Intelligence Science and Technology</p><p class="experience-location" data-en="Xi’an, China" data-zh="西安，中国">Xi’an, China</p></div>
+              <p class="experience-note"><span>GPA: 3.8/4.0</span></p>
+            </div>
+            <div class="institution-logo institution-logo--xidian" aria-hidden="true"><img src="assets/logo-xidian.png" alt="" width="447" height="447" loading="lazy" decoding="async"></div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="experience-section" id="internship" aria-labelledby="internship-title">
+        <div class="section-heading">
+          <div><h2 id="internship-title" data-en="Internship" data-zh="实习经历">Internship</h2></div>
+        </div>
+        <ol class="experience-list">
+          <li class="experience-item">
+            <p class="experience-date"><time datetime="2023-05" data-en="May 2023" data-zh="2023.05">May 2023</time><span aria-hidden="true">–</span><time datetime="2023-07" data-en="Jul. 2023" data-zh="2023.07">Jul. 2023</time></p>
+            <div class="experience-content">
+              <h3 lang="en">Yalla Group Limited</h3>
+              <div class="experience-details"><p class="experience-role" data-en="Research and Development Intern" data-zh="研发实习生">Research and Development Intern</p><p class="experience-location" data-en="Dubai, UAE" data-zh="迪拜，阿联酋">Dubai, UAE</p></div>
+              <p class="experience-description" data-en="Fine-tuned CLIP on annotated real-world chatroom images to build an image classifier for content filtering." data-zh="基于标注的真实聊天室图像微调 CLIP，构建用于内容过滤的图像分类器。">Fine-tuned CLIP on annotated real-world chatroom images to build an image classifier for content filtering.</p>
+            </div>
+            <div class="institution-logo institution-logo--yalla" aria-hidden="true"><img src="assets/logo-yalla.png" alt="" width="638" height="225" loading="lazy" decoding="async"></div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div><h2 id="contact-title" data-en="Contact" data-zh="联系">Contact</h2><p data-en="Research inquiries and collaborations are welcome." data-zh="欢迎就研究与合作事宜联系。">Research inquiries and collaborations are welcome.</p></div>
+        <div class="contact-actions"><a class="email-link" href="mailto:cong.cao@mbzuai.ac.ae">cong.cao@mbzuai.ac.ae</a><button id="copy-email" class="copy-button" type="button" data-en="Copy email address" data-zh="复制邮箱地址" hidden>Copy email address</button><span id="copy-status" class="copy-status" role="status" aria-live="polite"></span></div>
+      </section>
+    </main>
+    <footer><span>© <span id="year">2026</span> Cong Cao</span><span data-en="Computer Vision · MBZUAI" data-zh="计算机视觉 · MBZUAI">Computer Vision · MBZUAI</span><a href="#" data-en="Back to top ↑" data-zh="返回顶部 ↑">Back to top ↑</a></footer>
+  </div>
+  <dialog id="portrait-dialog" aria-label="Portrait of Cong Cao" data-aria-en="Portrait of Cong Cao" data-aria-zh="Cong Cao 的照片">
+    <button class="dialog-close" type="button" id="portrait-close" aria-label="Close photo" data-aria-en="Close photo" data-aria-zh="关闭照片">×</button>
+    <img src="assets/portrait.png" alt="Cong Cao beneath flowering trees" width="1092" height="1441" loading="lazy" data-alt-en="Cong Cao beneath flowering trees" data-alt-zh="开花的树下的 Cong Cao">
+  </dialog>
+</body>
+</html>
